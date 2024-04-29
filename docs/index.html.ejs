@@ -686,6 +686,34 @@
             </div>
           </div>
         `) %>
+        <p>
+          You can change the color of the title bar by adding the name of the color as a class, for example,
+           a cyan title-bar would use the class <code>cyan</code>.
+        </p>
+		 <%- example(`
+          <div class="title-bar red">
+            <div class="title-bar-text">A red title bar</div>
+            <div class="title-bar-controls">
+              <button aria-label="Close"></button>
+            </div>
+          </div>
+        `) %>
+        <%- example(`
+        <div class="title-bar green">
+          <div class="title-bar-text">A green title bar</div>
+          <div class="title-bar-controls">
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+      `) %>
+      <%- example(`
+      <div class="title-bar cyan">
+        <div class="title-bar-text">A cyan title bar</div>
+        <div class="title-bar-controls">
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+    `) %>
       </div>
     </section>
 

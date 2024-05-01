@@ -714,6 +714,49 @@
         </div>
       </div>
     `) %>
+    <%- example(`
+    <div class="title-bar gold">
+      <div class="title-bar-text">A gold title bar</div>
+      <div class="title-bar-controls">
+        <button aria-label="Close"></button>
+      </div>
+    </div>
+  `) %>
+  <%- example(`
+    <div class="title-bar purple">
+      <div class="title-bar-text">A purple title bar</div>
+      <div class="title-bar-controls">
+        <button aria-label="Close"></button>
+      </div>
+    </div>
+  `) %>
+  <p>
+    For a subtler color, use <code>color-highlight</code> instead.
+  </p>
+  <%- example(`
+  <div class="title-bar gold-highlight">
+    <div class="title-bar-text">A highlighted gold title bar</div>
+    <div class="title-bar-controls">
+      <button aria-label="Close"></button>
+    </div>
+  </div>
+`) %>
+  <%- example(`
+  <div class="title-bar purple-highlight">
+    <div class="title-bar-text">A highlighted purple title bar</div>
+    <div class="title-bar-controls">
+      <button aria-label="Close"></button>
+    </div>
+  </div>
+`) %>
+<%- example(`
+<div class="title-bar red-highlight">
+  <div class="title-bar-text">A highlighted red title bar</div>
+  <div class="title-bar-controls">
+    <button aria-label="Close"></button>
+  </div>
+</div>
+`) %>
       </div>
     </section>
 
